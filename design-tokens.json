@@ -1,0 +1,27 @@
+{
+  "canvas": { "widthPx": 1280, "heightPx": 720, "dpi": 96 },
+  "font": "Microsoft YaHei",
+  "themes": {
+    "pitch": { "accent": "#1F4E79", "text": "#1A1A1A", "muted": "#5F6B76", "light": "#EAF1F7" },
+    "report": { "accent": "#2E5E4E", "text": "#1A1A1A", "muted": "#5F6B76", "light": "#ECF3EF" }
+  },
+  "layout": {
+    "marginX": 86.4, "barHeight": 8.64,
+    "titleY": 52.8, "titleH": 96,
+    "bodyY": 192, "bodyH": 460.8,
+    "pageNoRight": 57.6, "pageNoBottom": 43.2, "pageNoW": 60, "pageNoH": 30,
+    "bulletGap": 24, "bulletLineHeight": 1.5,
+    "cardGap": 38.4, "cardY": 240, "cardH": 249.6, "kpiCardRadiusPx": 20,
+    "coverTitleY": 230, "coverTitleH": 150,
+    "coverSubY": 390, "coverSubH": 80,
+    "coverMetaY": 560, "coverMetaH": 60,
+    "sectionTitleY": 288, "sectionTitleH": 100,
+    "closingTitleY": 288, "closingTitleH": 100,
+    "closingSubY": 410, "closingSubH": 80
+  },
+  "type": {
+    "coverTitle": 44, "coverSub": 22, "coverMeta": 18,
+    "sectionTitle": 40, "slideTitle": 32, "bullet": 24,
+    "kpiValue": 40, "kpiLabel": 18, "pageNo": 12
+  }
+}

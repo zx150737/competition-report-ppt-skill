@@ -1,0 +1,13 @@
+name: Verify Editable
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install python-pptx
+      - run: python scripts/build_pptx.py examples/sample-pitch-25p.json /tmp/out.pptx
+      - run: python scripts/lint_deck.py examples/sample-pitch-25p.json /tmp/out.pptx
+      - run: python scripts/verify_editable.py /tmp/out.pptx

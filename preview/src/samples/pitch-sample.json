@@ -1,0 +1,10 @@
+{
+  "scenario": "pitch",
+  "slides": [
+    { "role": "cover", "title": "田间智测", "subtitle": "让每块地都有实时土壤报告", "meta": "XX 大学 · 2025 挑战杯" },
+    { "role": "section", "title": "痛点" },
+    { "role": "bullets", "title": "中小农户测土成本高、周期长", "bullets": ["单次送检 300 元，7 天出结果", "覆盖率不足 12%", "施肥仍靠经验判断"], "notes": "补访谈数据" },
+    { "role": "kpi", "title": "试点三个月验证了需求真实性", "items": [{ "value": "320", "label": "试点农户" }, { "value": "68%", "label": "周活使用率" }, { "value": "42%", "label": "化肥用量下降" }] },
+    { "role": "closing", "title": "让测土像拍照一样简单", "subtitle": "contact@example.com" }
+  ]
+}
