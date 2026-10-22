@@ -30,7 +30,7 @@
 ## Part 2 · 目录结构
 
 ```text
-competition-report-ppt-skill/
+zx-competition-report-ppt-skill/
 ├── design-tokens.json
 ├── SKILL.md
 ├── README.md
@@ -121,12 +121,12 @@ competition-report-ppt-skill/
 ## Part 4 · GitHub 上线流程
 
 ```bash
-cd competition-report-ppt-skill
+cd zx-competition-report-ppt-skill
 git init -b main
 git add .
 git commit -m "feat: initial release — skill + preview + editable CI"
 
-gh repo create competition-report-ppt-skill \
+gh repo create zx-competition-report-ppt-skill \
   --public \
   --description "比赛路演 / 小组汇报 PPT Skill：场景化生成可编辑 .pptx，带实时预览网站" \
   --source=. --remote=origin
@@ -134,15 +134,15 @@ gh repo create competition-report-ppt-skill \
 git push -u origin main
 
 # 开启 GitHub Pages（workflow 方式）
-gh api -X POST repos/{owner}/competition-report-ppt-skill/pages -f build_type=workflow
-gh api -X PATCH repos/{owner}/competition-report-ppt-skill \
+gh api -X POST repos/{owner}/zx-competition-report-ppt-skill/pages -f build_type=workflow
+gh api -X PATCH repos/{owner}/zx-competition-report-ppt-skill \
   -f description="..." \
   -f "topics[]=ppt" -f "topics[]=presentation" -f "topics[]=claude-skill" \
   -f "topics[]=ai" -f "topics[]=python-pptx" -f "topics[]=pptxgenjs"
 ```
 
 手动兜底（Pages API 失败时）：仓库 Settings → Pages → Source 选 **GitHub Actions**。
-页面地址：`https://<owner>.github.io/competition-report-ppt-skill/`。
+页面地址：`https://<owner>.github.io/zx-competition-report-ppt-skill/`。
 
 ---
 

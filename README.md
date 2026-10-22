@@ -1,14 +1,14 @@
 # 比赛 & 小组汇报 PPT Skill
 
-[![Deploy Preview](https://github.com/zx150737/competition-report-ppt-skill/actions/workflows/deploy.yml/badge.svg)](https://github.com/zx150737/competition-report-ppt-skill/actions/workflows/deploy.yml)
-[![Verify Editable](https://github.com/zx150737/competition-report-ppt-skill/actions/workflows/verify-editable.yml/badge.svg)](https://github.com/zx150737/competition-report-ppt-skill/actions/workflows/verify-editable.yml)
-[![在线预览](https://img.shields.io/badge/在线预览-GitHub%20Pages-1F4E79)](https://zx150737.github.io/competition-report-ppt-skill/)
+[![Deploy Preview](https://github.com/zx150737/zx-competition-report-ppt-skill/actions/workflows/deploy.yml/badge.svg)](https://github.com/zx150737/zx-competition-report-ppt-skill/actions/workflows/deploy.yml)
+[![Verify Editable](https://github.com/zx150737/zx-competition-report-ppt-skill/actions/workflows/verify-editable.yml/badge.svg)](https://github.com/zx150737/zx-competition-report-ppt-skill/actions/workflows/verify-editable.yml)
+[![在线预览](https://img.shields.io/badge/在线预览-GitHub%20Pages-1F4E79)](https://zx150737.github.io/zx-competition-report-ppt-skill/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2E5E4E.svg)](LICENSE)
 
 把竞赛路演和组会汇报的隐性规则，编码成 AI 的硬约束。
 输入项目材料 → 输出**可直接在 PowerPoint / WPS 编辑**的 `.pptx`。
 
-- 🖥 在线预览：<https://zx150737.github.io/competition-report-ppt-skill/>（push `main` 自动部署）
+- 🖥 在线预览：<https://zx150737.github.io/zx-competition-report-ppt-skill/>（push `main` 自动部署）
 - ✅ CI：可编辑性校验 + Pages 部署，两个 workflow 全绿
 - 🧩 示例输入：[`examples/sample-pitch-25p.json`](examples/sample-pitch-25p.json)（25 页完整路演）
 
@@ -70,7 +70,7 @@ npm run build    # tsc 严格模式 + vite build → preview/dist
 ## 目录结构
 
 ```text
-competition-report-ppt-skill/
+zx-competition-report-ppt-skill/
 ├── design-tokens.json          # 唯一视觉真源（canvas / themes / layout / type）
 ├── SKILL.md                    # Skill 入口：工作流 + 硬性纪律 + 可编辑性约束
 ├── references/
